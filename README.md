@@ -1,5 +1,5 @@
 
-# Kafka-basic 
+# Exploring Kafka: A Comprehensive Introduction to Basics 
 
 This repository serves as a practical demonstration of the fundamental concepts behind Apache Kafka, showcasing a basic project with Producer and Consumer implementations. Whether you're new to Kafka or seeking a quick reference, this project provides a hands-on approach to understanding the core principles.
 
@@ -25,7 +25,33 @@ For Mac: https://www.youtube.com/watch?v=sUEIRxVbieI&ab_channel=BogdanStashchuk
 
 
 
-## Project Structure
+## Steps to execute
+
+### Step 1 : Initiate Kafka 
+
+#### A.Start Zookeeper:
+
+Kafka uses Zookeeper for distributed coordination. Start Zookeeper first.
+In the Kafka directory, run the following command to start Zookeeper:
+```
+bin/zookeeper-server-start.sh config/zookeeper.properties
+```
+
+#### B.Start Kafka Broker:
+
+In a new terminal, start the Kafka broker using the following command:
+```
+bin/kafka-server-start.sh config/server.properties
+```
+### Step 2 : Execute Producer and Consumer Program
+
+##### A.Execute consumer1.ipynb
+##### B.Execute producer1.ipynb
+##### C.Execute producer2.ipynb
+
+
+## Demo
+
 
  
 
