@@ -4,10 +4,6 @@
 This repository serves as a practical demonstration of the fundamental concepts behind Apache Kafka, showcasing a basic project with Producer and Consumer implementations. Whether you're new to Kafka or seeking a quick reference, this project provides a hands-on approach to understanding the core principles.
 
 
-
-## Table of Content
-
-
 ## Getting Started
 
 To get the project clone this repository to your local machine
